@@ -2,21 +2,14 @@
 
 declare(strict_types=1);
 
-
 $result = " ";
 $message = " ";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-
-
     $number_input1 = $_POST["number_input1"] ?? 0;
     $number_input2 = $_POST["number_input2"] ?? 0;
     $operation = $_POST["operation"] ?? " ";
-
-
-
-
 
     switch ($operation) {
         case "add":
@@ -38,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         default:
             $message = "Input numbers and pick an operation to get a result &#9786;";
     }
-
 
     if (isset($_POST["reset"])) {
         $_POST = [];
