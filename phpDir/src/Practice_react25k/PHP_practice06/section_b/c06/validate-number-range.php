@@ -17,10 +17,44 @@ range 16 and 65. You may store boolean value as return type in function to check
 Step 5: Check if condition is valid, if it is you can display
     "Age is valid" else "You must be 16-65 years old"
 
-*/
+
+
+
+
+
+    function is_number($number, int min= 0, int $max = 100): bool 
+{
+  return ($number >= $min and $number <= $max)
+ }
+    $valid=is_number($age, 16, 65);
+  
 ?>
-<?php include 'includes/header.php'; ?>
+*/
 
-//Write PHP Code here
+$message = "";
 
-<?php include 'includes/footer.php'; ?>
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+  $age = $_POST["age"] ?? "";
+
+  if ($age >= 16 && $age <= 65) {
+    $message = "Valid. You are $age years old, which is within the the age range (16 - 65 years).";
+  } elseif ($age < 16 || $age > 65) {
+    $message = "Error. You are $age years old. The accepted age range is 16 - 65 years.";
+  } else {
+    $message = "";
+  }
+}
+
+?>
+
+<?php include "includes/header.php"; ?>
+
+<form method="post">
+  <label for="age" style="display: block; margin: 2rem auto; text-align:center; font-size: 20pt;">Age:</label>
+  <input type="number" name="age" style="display: block; margin: 2rem auto;" />
+  <input type="submit" style="display: block; margin: 2rem auto;" name="submit" value="submit">
+  <p> <?php echo $message; ?></p>
+
+
+  <?php include 'includes/footer.php'; ?>
