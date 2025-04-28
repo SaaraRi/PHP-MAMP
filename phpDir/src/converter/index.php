@@ -98,7 +98,7 @@
                 </select>
             </div>
             <h2 id="h2-3">Insert number value:</h2>
-            <input id="number_input" name="number_input" type="number" class="number_input" step="any" value="<?php if (isset($_POST["number_input"])) echo $_POST["number_input"]; ?>" placeholder="123" required>
+            <input id="number_input" name="number_input" type="number" class="number_input" step="any" value="<?php if (isset($_POST["number_input"])) echo $_POST["number_input"]; ?>" placeholder="0" required>
             <input type="submit" class="btn" id="convert" value="Convert">
             <input type="submit" class="btn" id="reset" name="reset" value="Reset">
             <div class="result">

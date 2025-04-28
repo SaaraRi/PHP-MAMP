@@ -25,11 +25,11 @@ select,
     width: 250px;
     height: 55px;
     border-radius: 5px;
-    border: 1px solid #716e6d; 
+    border: 2px solid #716e6d; 
     padding: 0 0.3rem;
-    background-color: rgb(254, 170, 147);
+    background-color: rgb(254, 161, 147);
     text-align: center;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);*/
     font-weight: 500;
     
 }
@@ -39,113 +39,124 @@ select,
 }
 
 #scale-img {
-    height: 75vh;
+    height: 80vh;
     position: relative;
+    left: 300px;
+    bottom: 40px;
+
 }
 
 #conversion_type {
     text-align: left;
-    margin: 3rem 3rem 0 3rem;
+    margin-top: 5rem;
+    margin-left: 7rem;
     position: absolute;
 
 }
 
 h1 {
-    margin: 1.5rem;
+    
     font-size: 34px;
     font-weight: 600;
+    text-align: left;
+    margin-left: 7rem;
+    margin-top: 4rem;
 }
 
 h2 {
     font-size: 20px;
     font-weight: 600;
+   
 }
 
 #h2-2 {
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 7rem;
     position: absolute;
-    top: 55vh;
+    top: 370px;
 }
 
 #h2-3 {
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 7rem;
     position: absolute;
-    top: 65.7vh;
+    top: 448px;
 }
 
 .unit1 {
     position: absolute;
-    top: 53vh;
-    left: 28.5vw;
+    top: 360px;
+    right: 500px;
     background-color:  rgb(255, 214, 203) ;
 }
 
 .unit2 {
     position: absolute;
-    top: 53vh;
-    right: 28.5vw;
+    top: 360px;
+    right: 95px;
     background-color:  rgb(255, 214, 203) ;
 }
 
 #number_input {
     position: absolute;
-    top: 63.7vh;
-    left: 28.5vw;
+    top: 438px;
+    right: 500px;
     font-weight: 500;
 }
 
 #result {
     position: absolute;
-    top: 63.7vh;
-    right: 28.5vw;
+    top: 438px;
+    right: 95px;
     padding-top: 0.9rem;
     font-weight: 500;
 }
 
 .into {
     position: absolute;
-    top: 57.5vh;
-    left: 48.7vw;
+    top: 390px;
+    right: 392px;
     font-size: 18px;
     font-weight: 500;
+    text-transform: uppercase;
+    color: black;
     
     
 }
 
 #convert {
     position: absolute;
-    top: 82.8vh;
-    left: 40.8vw;
+    top: 585px;
+    right: 285px;
 }
 
 #reset {
     position: absolute;
-    top: 92vh;
-    left: 40.8vw;
+    top: 585px;
+    left: 7rem;
+    
 }
 
 .btn {
     color: #3b3837;
     font-family: "Hepta Slab", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    width: 266px;
+    width: 270px;
     height: 45px;
     border-radius: 40px;
-    border: 1px solid #716e6d; 
+    border: 2px solid #716e6d; 
     padding: 0 0.3rem;
     background-color: rgb(251, 125, 118);
     text-align: center;
     text-transform: uppercase;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);*/
     cursor: pointer;
     transition-property: background-color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .btn:hover {
-    background-color: rgb(52, 229, 229);
+    background-color: rgb(138, 255, 255);
 }
