@@ -31,6 +31,7 @@
             </div>
         </form>
     </div>
+    <footer>Copyright&copy; Saara Rikama/React25K</footer>
 </body>
 
 </html>
