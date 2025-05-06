@@ -32,6 +32,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $message = "Input numbers and pick an operation to get a result &#9786;";
     }
 
+    $result = round($result, 9);
+
     if (isset($_POST["reset"])) {
         $_POST = [];
         $result = "";
