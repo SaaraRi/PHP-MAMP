@@ -6,8 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee+Spice&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nabla&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Quicksand:wght@300..700&family=Rubik+80s+Fade&family=Silkscreen:wght@400;700&family=Sixtyfour&family=Sixtyfour+Convergence&family=Tilt+Warp&family=Tourney:ital,wght@0,100..900;1,100..900&family=VT323&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons8-calculator-color-32.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
